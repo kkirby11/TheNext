@@ -96,7 +96,7 @@ const MainHeader = styled.div`
 
 const Headerr = styled.h1`
   position: absolute;
-  left: 25%;
+  left: 23%;
   top: 5%;
   text-align: center;
   padding-top: 70px;
@@ -123,7 +123,7 @@ const SecondHeader = styled.div`
   color: black;
   font-family: 'Crete Round', serif;
   left: 2%;
-  top: 46%;
+  top: 52%;
 `
 const ThirdHeader = styled.div`
   position: absolute;
@@ -132,7 +132,7 @@ const ThirdHeader = styled.div`
   color: black;
   font-family: 'Crete Round', serif;
   left: 24%;
-  top: 205%;
+  top: 208%;
 `
 const EmailHeader = styled.div`
   position: absolute;
@@ -141,7 +141,7 @@ const EmailHeader = styled.div`
   color: black;
   font-family: 'Crete Round', serif;
   left: 10%;
-  top: 112%;
+  top: 115%;
 `
 const EmailWrapper = styled.div`
   background-color: #EF5D60;
