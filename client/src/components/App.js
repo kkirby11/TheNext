@@ -9,6 +9,8 @@ import Home from './Home';
 import ProtectedRoute from './ProtectedRoute';
 import AuthRoute from './AuthRoute';
 import FetchUser from './FetchUser';
+import ContactsForm from './ContactsForm';
+import styled from 'styled-components';
 
 class App extends Component {
   render() {
@@ -17,16 +19,25 @@ class App extends Component {
         <NavBar />
         <Flash />
         <FetchUser>
+        <PaddedDiv>
           <Switch>
             <Route exact path='/' component={Home} />
+            <Route exact path='/contact' component={ContactsForm} />
             <AuthRoute exact path='/login' component={Login} />
             <AuthRoute exact path='/register' component={Register} />
             <Route component={NoMatch} />
           </Switch>
+          </PaddedDiv>
         </FetchUser>
       </div>
     );
   }
 }
+
+
+const PaddedDiv = styled.div`
+  padding-top: 25px;
+`
+
 
 export default App;
