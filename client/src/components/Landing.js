@@ -32,6 +32,7 @@ class Landing extends Component {
             </MainHeader>
           </Grid.Column>
         </Grid.Row>
+        {/* <Divider hidden/> */}
         <EmailWrapper>
           <EmailHeader>Sign Up for Exclusive Content Before our Launch Date!</EmailHeader>
           <FormStyle>
@@ -169,16 +170,6 @@ const TestWrapper = styled.div`
   height: 110px;
 `
 
-const ImageContainer = styled.div`
-  // display: flex;
-  padding-right: 250px;
-  padding-top: 50px;
-  // align-content: center;
-  // border-radius: 35px;
-`
-const ImageDescription = styled.div`
-  color: red;
-`
 const ImageDiv = styled.div`
   padding: 100px; 
   align-content: center;
